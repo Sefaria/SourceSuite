@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SourceSuite | "Darkness and Light at the Beginning"</title>
+		<link href='https://fonts.googleapis.com/css?family=David+Libre:400,700,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="main.css"/>
+ 		<script type="text/javascript" src="data.js"></script>
+ 		<script type="text/javascript" src="main.js"></script>
+
+	</head>
+	<body>
+	<div class="buttonContainer">
+		<button id="prevButton">Prev</button>
+		<button id="nextButton">Next</button>
+	</div>
+
+	<div class="mainContainer">
+
+    <aside>
+
+		</aside>
+    <div id="contentContainer">
+			<div id="zoomContainer">
+				<div class="panel">
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div id="hiddenMeasure"></div>
+
+		</body>
+
+<script>
+
+
+      document.querySelector('#nextButton').addEventListener("click", () => {animate('fwd')});
+      document.querySelector('#prevButton').addEventListener("click", () => {animate('back')});
+
+			document.addEventListener("keydown", (event) => {
+			    if (event.code === "ArrowRight" || event.code === "ArrowDown") {
+							animate('fwd')
+			    } else if (event.code === "ArrowLeft" || event.code === "ArrowUp") {
+							animate('back')
+			    }
+			});
+
+			let wheel_timer = 0;
+			window.addEventListener("wheel", (event) => {
+			    clearTimeout(wheel_timer);
+			    wheel_timer = setTimeout(function () {
+				    if (event.deltaY < 0) {
+								animate('back')
+				    } else {
+								animate('fwd')
+				    }
+			    }, 200)
+			});
+
+
+        window.addEventListener("load", () => {
+					changeSlideContent();
+					const zoomContainer = document.getElementById('zoomContainer')
+					setTimeout(() => {animate()}, 250)
+
+
+				});
+        window.addEventListener("resize", () => {animate()});
+
+    </script>
+
+</body>
+</html>

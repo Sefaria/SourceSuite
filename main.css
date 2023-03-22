@@ -1,0 +1,63 @@
+			html, body {
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+			}
+
+			.mainContainer {
+  			display: flex; /* or inline-flex */
+				flex-direction: row;
+				align-items: stretch;
+  			height: 100vh;
+			}
+			aside {
+				flex: 0 1 auto;
+				max-width: 400px;
+				min-width: 320px;
+				padding: 20px;
+				font-size: 26px;
+				background-color: black;
+				color: white;
+				z-index: 2;
+			}
+			#contentContainer {
+				flex: 0 1 auto;
+				width: 100%;
+
+				/* height: 100vw; */
+				/* width: 100vw; */
+			}
+			.panel,
+			#hiddenMeasure {
+				width: 400px;
+				margin: auto;
+				font-size: 26px;
+				font-family: 'David Libre';
+				direction: rtl;
+				background-color: white;
+				color: #999;
+			}
+
+			.zoom.focus, .zoom .focus {
+				color: #000;
+			}
+
+			.en {
+				direction: ltr;
+				padding-bottom: 30px;
+			}
+
+			.buttonContainer {
+				position: absolute;
+				bottom: 10px;
+				left: 10px;
+				z-index: 3;
+			}
+
+			#hiddenMeasure {
+				visibility: hidden;
+				position: absolute;
+				top: 0;
+				left: 0;
+
+			}
