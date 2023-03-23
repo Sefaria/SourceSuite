@@ -7,8 +7,9 @@
 
 
 
-			function willBaseTextChange() {
-				if (dataIndex === 0) {
+			function willBaseTextChange(direction) {
+        console.log(dataIndex)
+				if (dataIndex === 0 && direction == "back") {
 					return false
 				}
 
@@ -17,10 +18,10 @@
 				const text1 = div1.textContent || div1.innerText || "";
 
 				const div2 = document.createElement("div");
-				div2.innerHTML = data[dataIndex-1];
+				div2.innerHTML = direction = "fwd" ? data[dataIndex+1] : data[dataIndex-1];
 				const text2 = div2.textContent || div2.innerText || "";
 
-				return (text1 !== text2)
+				return (text1.replace(/\s/g,'') !== text2.replace(/\s/g,''))
 
 			}
 
@@ -30,8 +31,38 @@
 				document.querySelector("aside").innerHTML = data2[dataIndex]
 			}
 
+      function checkChangeText(direction) {
+        console.log(dataIndex)
+        if (willBaseTextChange()) {
+          const el = document.querySelector(".panel")
+        					el.classList.add('animate__animated', 'animate__fadeOut');
+				          const zoomContainer = document.getElementById('zoomContainer')
+
+        					el.addEventListener('animationend', () => {
+				          zoomContainer.style.transition = `all 1ms`;
+				            zoomContainer.style.transform = `scale(1)`;
+                    zoomContainer.style.marginTop = 0;
+                    animate(direction)
+        						el.classList.remove('animate__fadeOut', 'animate__animated', 'animate__fadeIn')
+        						el.classList.add('animate__animated', 'animate__fadeIn');
+        						// el.classList.remove('animate__animated', 'animate__zoomIn');
+
+        					}, { once: true });
+
+        				}
+
+else {
+                    animate(direction)
+
+}
+
+
+
+      }
+
 
       function animate(direction) {
+
 				if (direction === "fwd") {
         	dataIndex++
 				}
@@ -64,12 +95,12 @@
 				const zoomBbox = el.querySelector(".zoom").getBoundingClientRect()
 				const hmZoomBbox = hm.querySelector(".zoom").getBoundingClientRect()
 
-				console.log("contentContainer", containerBbox)
-				console.log("zoomContainerBbox", zoomContainerBbox)
-				console.log("panelBox", panelBox)
-				console.log("zoomBbox", zoomBbox)
-				console.log("contentBbox", contentBbox)
-				console.log("hmZoomBbox", hmZoomBbox)
+				// console.log("contentContainer", containerBbox)
+				// console.log("zoomContainerBbox", zoomContainerBbox)
+				// console.log("panelBox", panelBox)
+				// console.log("zoomBbox", zoomBbox)
+				// console.log("contentBbox", contentBbox)
+				// console.log("hmZoomBbox", hmZoomBbox)
 
 
 
@@ -93,18 +124,7 @@
 				zoomContainer.style.transform = `scale(${zoom})`;
 
 
-// if (willBaseTextChange()) {
-				// 	el.classList.add('animate__animated', 'animate__zoomOut');
-				//
-				// 	el.addEventListener('animationend', () => {
-				// 		el.classList.remove('animate__zoomOut', 'animate__animated', 'animate__zoomIn')
-				// 		el.classList.add('animate__animated', 'animate__zoomIn');
-				// 		panzoom.zoom(zoom, { animate: true, roundPixels: true })
-				// 		el.classList.remove('animate__animated', 'animate__zoomIn');
-				//
-				// 	}, { once: true });
-				//
-				// }
-				//
+
+
 
       }
