@@ -65,9 +65,16 @@ else {
 
 				if (direction === "fwd") {
         	dataIndex++
+          gtag("event", "select_content", {
+            content_type: "slide",
+            content_id: dataIndex
+          });
+          gtag("event", "advance_content");
 				}
 				else if (direction === "back") {
         	dataIndex--
+          gtag("event", "previous_content");
+
 				}
 
         if (dataIndex < 0) {
