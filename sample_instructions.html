@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Google tag (gtag.js) -->
+		<title>SourceSuite | "Darkness and Light at the Beginning"</title>
+		<link href='https://fonts.googleapis.com/css?family=David+Libre:400,700,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="main.css"/>
+ 		<script type="text/javascript" src="out.js"></script>
+ 		<script type="text/javascript" src="main.js"></script>
+
+	</head>
+	<body>
+	<div class="buttonContainer">
+		<button id="prevButton">Prev</button>
+		<button id="nextButton">Next</button>
+	</div>
+
+	<div class="mainContainer">
+
+    <aside>
+
+		</aside>
+    <div id="contentContainer">
+			<div id="zoomContainer">
+				<div class="panel">
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div id="hiddenMeasure"></div>
+
+		</body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E2L7GVY2BZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E2L7GVY2BZ');
+</script>
+
+
+
+<script>
+
+
+      document.querySelector('#nextButton').addEventListener("click", () => {checkChangeText('fwd')});
+      document.querySelector('#prevButton').addEventListener("click", () => {checkChangeText('back')});
+
+			document.addEventListener("keydown", (event) => {
+			    if (event.code === "ArrowRight" || event.code === "ArrowDown") {
+							checkChangeText('fwd')
+			    } else if (event.code === "ArrowLeft" || event.code === "ArrowUp") {
+							checkChangeText('back')
+			    }
+			});
+
+			let wheel_timer = 0;
+			window.addEventListener("wheel", (event) => {
+			    clearTimeout(wheel_timer);
+			    wheel_timer = setTimeout(function () {
+				    if (event.deltaY < 0) {
+								checkChangeText('back')
+				    } else {
+								checkChangeText('fwd')
+				    }
+			    }, 200)
+			});
+
+
+        window.addEventListener("load", () => {
+					changeSlideContent();
+					const zoomContainer = document.getElementById('zoomContainer')
+					setTimeout(() => {animate()}, 250)
+
+
+				});
+        window.addEventListener("resize", () => {animate()});
+
+    </script>
+
+</body>
+</html>
