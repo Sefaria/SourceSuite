@@ -8,7 +8,7 @@ The tool excels at directing and redirecting the focus of a learner to specific 
 
 Our SourceSuite Viewer is engineered to easily accept new content.
 
-Using the following steps, you can convert a spreadsheet like this, into a [SourceSuite like this](https://sefaria.github.io/SourceSuite/sample_instructions.html).
+Using the following steps, you can convert a [spreadsheet like this](https://docs.google.com/spreadsheets/d/1XvzFFG9t06jFnoE6_TLTruLCAomtwZ9kON-ETPavbjU/edit?usp=sharing), into a [SourceSuite like this](https://sefaria.github.io/SourceSuite/sample_instructions.html).
 
 To create your own SourceSuite do the following:
 
