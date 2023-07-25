@@ -12,7 +12,7 @@ Using the following steps, you can convert a [spreadsheet like this](https://doc
 
 To create your own SourceSuite do the following:
 
-1. Make a copy of this Google Sheet.
+1. Make a copy of this [Google Sheet](https://docs.google.com/spreadsheets/d/1XvzFFG9t06jFnoE6_TLTruLCAomtwZ9kON-ETPavbjU/edit?usp=sharing).
 2. Each row represents one slide in a SourceSuite. Column A represents the left column, which usually contains the commentary or the prompt. Column B is the right main column, which usually contains the primary content. A1 and B1 will be shown together on the first slide, A2 and B2 on the second, and so on.
 3. You can add line breaks to your right hand content by pressing Ctrl + Enter (for Windows) or Command ⌘ + Return (for Mac)  
 3. If the content in Column B is from a different text then the previous slide, the viewer will crossfade and show the new one. If the content in Column B is from the same text, the viewer will zoom in or out to accomodate the targeted content.
