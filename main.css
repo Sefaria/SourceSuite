@@ -29,6 +29,7 @@
 			}
 			.panel,
 			#hiddenMeasure {
+				max-width: 800px;
 				width: 400px;
 				margin: auto;
 				font-size: 26px;

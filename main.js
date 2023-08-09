@@ -1,8 +1,3 @@
-			// const panzoom = Panzoom(zoomContainer, {
-			//   maxScale: 15,
-			// 	cursor: 'default'
-			// })
-
       let dataIndex = 0
 
 
@@ -62,6 +57,11 @@ else {
 
 
       function animate(direction) {
+        const panelWidth = document.querySelector("#contentContainer").offsetWidth
+        // document.querySelector(".panel").style.width = `${panelWidth}px`
+        // document.querySelector("#hiddenMeasure").style.width = `${panelWidth}px`
+        //
+
 
 				if (direction === "fwd") {
         	dataIndex++
@@ -130,7 +130,10 @@ else {
 				zoomContainer.style.transformOrigin = `50% 0px 0px`;
 				zoomContainer.style.transform = `scale(${zoom})`;
 
-
+        setTimeout(() => {
+				  console.log("zoomBbox", zoomBbox)
+				  console.log("panelBox", panelBox)
+        }, 2500);
 
 
 
