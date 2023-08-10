@@ -37,32 +37,32 @@ const data2 = ['<strong>I. Yisurin in Tanakh</strong></br>1. דברים כא:י�
 
 '<strong>I. Yisurin in Tanakh</strong></br>2. תהילים צד:יב</br>Psalms 94:12         </br></br>',
 
-'<strong>II. Yisurin in Tannaitic Literature</strong></br>1. מכילתא דר״י יתרו דבחדש ז</br>Mekhilta de-Rabbi Ishmael, Yitro Debachodesh 7</br> ',
+'<strong>II. Yisurin in Tannaitic Literature</strong></br>3. מכילתא דר״י יתרו דבחדש ז</br>Mekhilta de-Rabbi Ishmael, Yitro Debachodesh 7</br> ',
 
-'<strong>II. Yisurin in Tannaitic Literature</strong></br>1. מכילתא דר״י יתרו דבחדש ז</br>Mekhilta de-Rabbi Ishmael, Yitro Debachodesh 7</br> ',
+'<strong>II. Yisurin in Tannaitic Literature</strong></br>3. מכילתא דר״י יתרו דבחדש ז</br>Mekhilta de-Rabbi Ishmael, Yitro Debachodesh 7</br> ',
 
-'<strong>II. Yisurin in Tannaitic Literature</strong></br>2. מכילתא דר״י יתרו דבחדש י</br>Mekhilta de-Rabbi Ishmael, Yitro Debachodesh 10</br> ',
+'<strong>II. Yisurin in Tannaitic Literature</strong></br>4. מכילתא דר״י יתרו דבחדש י</br>Mekhilta de-Rabbi Ishmael, Yitro Debachodesh 10</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>1. בבלי ברכות י״ז ע״א</br>Talmud Bavli Berachot 17a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>5. בבלי ברכות י״ז ע״א</br>Talmud Bavli Berachot 17a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>1. בבלי ברכות י״ז ע״א</br>Talmud Bavli Berachot 17a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>5. בבלי ברכות י״ז ע״א</br>Talmud Bavli Berachot 17a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>2. בבלי ברכות ה ע״א</br>Talmud Bavli Berachot 5a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>6. בבלי ברכות ה ע״א</br>Talmud Bavli Berachot 5a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>2. בבלי ברכות ה ע״א</br>Talmud Bavli Berachot 5a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>6. בבלי ברכות ה ע״א</br>Talmud Bavli Berachot 5a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>3. בבלי ברכות ה ע״ב</br>Talmud Bavli Berachot 5b</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>7. בבלי ברכות ה ע״ב</br>Talmud Bavli Berachot 5b</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>3. בבלי ברכות ה ע״ב</br>Talmud Bavli Berachot 5b</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>7. בבלי ברכות ה ע״ב</br>Talmud Bavli Berachot 5b</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>4. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>8. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>4. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>8. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>4. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>8. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>4. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
+'<strong>III. Yisurin in the Bavli</strong></br>8. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> ',
 
-'<strong>III. Yisurin in the Bavli</strong></br>4. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> '
+'<strong>III. Yisurin in the Bavli</strong></br>8. בבלי ערכין ט״ז ע״ב-י״ז ע״א</br>Talmud Bavli Arakhin 16b-17a</br> '
 
 ]
