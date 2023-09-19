@@ -1,104 +1,11 @@
 const data = [
 
-`
-  <div class="zoom en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="zoom en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="zoom en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
+`<div class="zoom">
   <div class="en">The world of God is great and holy.</div>
   <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
   <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="zoom en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
+  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
+  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div></div>
   <div class="en">Our tradition is that in the world there are seventy nations,</div>
   <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
   <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
@@ -129,167 +36,12 @@ const data = [
   <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
   <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
   <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="zoom en">And the holiest site in the Temple was the Holy of Holies…</div>
+  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div><div class="zoom">
   <div class="en">Our tradition is that in the world there are seventy nations,</div>
   <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
   <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
   <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="zoom en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="zoom en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en zoom">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en zoom">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en zoom">And among the priests, the holiest was the High Priest.</div>
+  <div class="en">And among the priests, the holiest was the High Priest.</div></div>
   <div class="en">The lunar year has 354 days.</div>
   <div class="en">Some days are set aside as holy days.</div>
   <div class="en">Holier than the festivals are the Shabbatot;</div>
@@ -321,104 +73,11 @@ const data = [
   <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
   <div class="en">The holiest of the Levites are the priests;</div>
   <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en zoom">The lunar year has 354 days.</div>
+  <div class="en">The lunar year has 354 days.</div><div class="zoom">
   <div class="en">Some days are set aside as holy days.</div>
   <div class="en">Holier than the festivals are the Shabbatot;</div>
   <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en zoom">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en zoom">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en zoom">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
+  <div class="en">The Shabbat of the Shabbatot.</div></div>
   <div class="en">There are seventy languages in the world,</div>
   <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
   <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
@@ -449,105 +108,12 @@ const data = [
   <div class="en">Some days are set aside as holy days.</div>
   <div class="en">Holier than the festivals are the Shabbatot;</div>
   <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en zoom">The Shabbat of the Shabbatot.</div>
+  <div class="en">The Shabbat of the Shabbatot.</div><div class="zoom">
   <div class="en">There are seventy languages in the world,</div>
   <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
   <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
   <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en zoom">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en zoom">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
-  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
-  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
-  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
-  <div class="en">Every human being created in God’s image is a High Priest.</div>
-  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
-  <div class="en">Each one of us can face God with the language of the heart.</div>
-  <div class="en">Each one of us can be forgiven.</div>
-  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
-
-`
-  <div class="en">The world of God is great and holy.</div>
-  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
-  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
-  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
-  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
-  <div class="en">Our tradition is that in the world there are seventy nations,</div>
-  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
-  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
-  <div class="en">The holiest of the Levites are the priests;</div>
-  <div class="en">And among the priests, the holiest was the High Priest.</div>
-  <div class="en">The lunar year has 354 days.</div>
-  <div class="en">Some days are set aside as holy days.</div>
-  <div class="en">Holier than the festivals are the Shabbatot;</div>
-  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
-  <div class="en">The Shabbat of the Shabbatot.</div>
-  <div class="en">There are seventy languages in the world,</div>
-  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
-  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
-  <div class="en zoom">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
+  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div></div>
   <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
   <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
   <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
@@ -578,16 +144,48 @@ const data = [
   <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
   <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
   <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
-  <div class="en zoom">And the holiest of all the words in the Ten Commandments is the name of God.</div>
+  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div><div class="zoom">
   <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
   <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
-  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div>
+  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div></div>
   <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
   <div class="en">Every human being created in God’s image is a High Priest.</div>
   <div class="en">Each day of a person’s life is the Day of Atonement…</div>
   <div class="en">Each one of us can face God with the language of the heart.</div>
   <div class="en">Each one of us can be forgiven.</div>
   <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div>`,
+
+`
+  <div class="en">The world of God is great and holy.</div>
+  <div class="en">Of all the lands of the world, the Land of Israel was set aside to be holy for us;</div>
+  <div class="en">And in the Land of Israel, the holiest city is Jerusalem.</div>
+  <div class="en">In Jerusalem, the holiest place was the Holy Temple;</div>
+  <div class="en">And the holiest site in the Temple was the Holy of Holies…</div>
+  <div class="en">Our tradition is that in the world there are seventy nations,</div>
+  <div class="en"> and, of them, Israel was set aside to be holy to the Lord.</div>
+  <div class="en">The holiest of the people Israel is the tribe of Levites.</div>
+  <div class="en">The holiest of the Levites are the priests;</div>
+  <div class="en">And among the priests, the holiest was the High Priest.</div>
+  <div class="en">The lunar year has 354 days.</div>
+  <div class="en">Some days are set aside as holy days.</div>
+  <div class="en">Holier than the festivals are the Shabbatot;</div>
+  <div class="en">And the holiest of the Shabbatot is the day of Atonement – </div>
+  <div class="en">The Shabbat of the Shabbatot.</div>
+  <div class="en">There are seventy languages in the world,</div>
+  <div class="en">And of them, Hebrew was chosen as our holy tongue.</div>
+  <div class="en">The holiest of all things written in the Hebrew language is the Holy Torah.</div>
+  <div class="en">In the Torah, the holiest part if the Ten Commandments.</div>
+  <div class="en">And the holiest of all the words in the Ten Commandments is the name of God.</div>
+  <div class="en">At a certain hour, on a certain day of the year, all these four holinesses met together.</div>
+  <div class="en">This took place on the Day of Atonement, at the hour when the High Priest entered the Holy of Holies and revealed the Divine Name.</div>
+  <div class="en">And if he invoked God’s name in purity, all of Israel was forgiven.</div><div class="zoom">
+  <div class="en">Whenever a person stands to lift up eyes to heaven, that place is a Holy of Holies.</div>
+  <div class="en">Every human being created in God’s image is a High Priest.</div>
+  <div class="en">Each day of a person’s life is the Day of Atonement…</div>
+  <div class="en">Each one of us can face God with the language of the heart.</div>
+  <div class="en">Each one of us can be forgiven.</div>
+  <div class="en">Each one of us can achieve atonement and be pure in the eyes of the Lord.</div></div>`,
+
 
 `<div class="he">אַשְׁרֵי הַגֶּבֶר אֲשֶׁר <span class="focus">תְּיַסְּרֶנּוּ</span> יָּהּ; וּמִתּוֹרָתְךָ תְלַמְּדֶנּוּ.ְדַבֵּ֤ר יְהֹוָה֙ אֶל־מֹשֶׁ֔ה אַחֲרֵ֣י מ֔וֹת שְׁנֵ֖י בְּנֵ֣י אַהֲרֹ֑ן בְּקׇרְבָתָ֥ם לִפְנֵי־יְהֹוָ֖ה וַיָּמֻֽתוּ</div>
     <div class="he">יהוה spoke to Moses after the death of the two sons of Aaron who died when they drew too close to the presence of יהוה. </div>
@@ -836,7 +434,7 @@ const data = [
     <div class="en">And you strike with a wicked fist!</div>
     <div class="en">Your fasting today is not such</div>
     <div class="en">As to make your voice heard on high. </div>
-    <div class="en"></div>
+    <div class="en"></div></div>
     <div class="he focus">הֲכָזֶ֗ה יִֽהְיֶה֙ צ֣וֹם אֶבְחָרֵ֔הוּ י֛וֹם עַנּ֥וֹת אָדָ֖ם נַפְשׁ֑וֹ הֲלָכֹ֨ף כְּאַגְמֹ֜ן רֹאשׁ֗וֹ וְשַׂ֤ק וָאֵ֙פֶר֙ יַצִּ֔יעַ הֲלָזֶה֙ תִּקְרָא־צ֔וֹם וְי֥וֹם רָצ֖וֹן לַיהֹוָֽה׃ </div>
     <div class="en focus">Is such the fast I desire,</div>
     <div class="en focus">A day for people to starve their bodies?</div>
@@ -876,7 +474,77 @@ const data = [
     <div class="en">I will set you astride the heights of the earth,</div>
     <div class="en">And let you enjoy the heritage of your father Jacob—</div>
     <div class="en">For GOD’s mouth has spoken.</div>
-  </div>`,
+  `,
+
+
+
+  `
+    <div class="he">קְרָ֤א בְגָרוֹן֙ אַל־תַּחְשֹׂ֔ךְ כַּשּׁוֹפָ֖ר הָרֵ֣ם קוֹלֶ֑ךָ וְהַגֵּ֤ד לְעַמִּי֙ פִּשְׁעָ֔ם וּלְבֵ֥ית יַעֲקֹ֖ב חַטֹּאתָֽם׃ </div>
+    <div class="he">וְאוֹתִ֗י י֥וֹם יוֹם֙ יִדְרֹשׁ֔וּן וְדַ֥עַת דְּרָכַ֖י יֶחְפָּצ֑וּן כְּג֞וֹי אֲשֶׁר־צְדָקָ֣ה עָשָׂ֗ה וּמִשְׁפַּ֤ט אֱלֹהָיו֙ לֹ֣א עָזָ֔ב יִשְׁאָל֙וּנִי֙ מִשְׁפְּטֵי־צֶ֔דֶק קִרְבַ֥ת אֱלֹהִ֖ים יֶחְפָּצֽוּן׃</div>
+    <div class="en">Cry with full throat, without restraint;</div>
+    <div class="en">Raise your voice like a ram’s horn!</div>
+    <div class="en">Declare to My people their transgression,</div>
+    <div class="en">To the House of Jacob their sin.</div>
+    <div class="en"> To be sure, they seek Me daily,</div>
+    <div class="en">Eager to learn My ways.</div>
+    <div class="en">Like a nation that does what is right,</div>
+    <div class="en">That has not abandoned the laws of its God,</div>
+    <div class="en">They ask Me for the right way,</div>
+    <div class="en">They are eager for the nearness of God: </div>
+    <div class="en"></div>
+    <div class="he">לָ֤מָּה צַּ֙מְנוּ֙ וְלֹ֣א רָאִ֔יתָ עִנִּ֥ינוּ נַפְשֵׁ֖נוּ וְלֹ֣א תֵדָ֑ע הֵ֣ן בְּי֤וֹם צֹֽמְכֶם֙ תִּמְצְאוּ־חֵ֔פֶץ וְכׇל־עַצְּבֵיכֶ֖ם תִּנְגֹּֽשׂוּ׃ </div>
+    <div class="en">“Why, when we fasted, did You not see?</div>
+    <div class="en">When we starved our bodies, did You pay no heed?”</div>
+    <div class="en">Because on your fast day</div>
+    <div class="en">You see to your business</div>
+    <div class="en">And oppress all your laborers! </div>
+    <div class="en"></div>
+    <div class="he">הֵ֣ן לְרִ֤יב וּמַצָּה֙ תָּצ֔וּמוּ וּלְהַכּ֖וֹת בְּאֶגְרֹ֣ף רֶ֑שַׁע לֹֽא־תָצ֣וּמוּ כַיּ֔וֹם לְהַשְׁמִ֥יעַ בַּמָּר֖וֹם קֽוֹלְכֶֽם׃ </div>
+    <div class="en">Because you fast in strife and contention,</div>
+    <div class="en">And you strike with a wicked fist!</div>
+    <div class="en">Your fasting today is not such</div>
+    <div class="en">As to make your voice heard on high. </div>
+    <div class="en"></div><div class="zoom">
+    <div class="he focus">הֲכָזֶ֗ה יִֽהְיֶה֙ צ֣וֹם אֶבְחָרֵ֔הוּ י֛וֹם עַנּ֥וֹת אָדָ֖ם נַפְשׁ֑וֹ הֲלָכֹ֨ף כְּאַגְמֹ֜ן רֹאשׁ֗וֹ וְשַׂ֤ק וָאֵ֙פֶר֙ יַצִּ֔יעַ הֲלָזֶה֙ תִּקְרָא־צ֔וֹם וְי֥וֹם רָצ֖וֹן לַיהֹוָֽה׃ </div>
+    <div class="en focus">Is such the fast I desire,</div>
+    <div class="en focus">A day for people to starve their bodies?</div>
+    <div class="en focus">Is it bowing the head like a bulrush</div>
+    <div class="en focus">And lying in sackcloth and ashes?</div>
+    <div class="en focus">Do you call that a fast,</div>
+    <div class="en focus">A day when GOD is favorable?</div>
+    <div class="en"></div>
+    <div class="he">הֲל֣וֹא זֶה֮ צ֣וֹם אֶבְחָרֵ֒הוּ֒ פַּתֵּ֙חַ֙ חַרְצֻבּ֣וֹת רֶ֔שַׁע הַתֵּ֖ר אֲגֻדּ֣וֹת מוֹטָ֑ה וְשַׁלַּ֤ח רְצוּצִים֙ חׇפְשִׁ֔ים וְכׇל־מוֹטָ֖ה תְּנַתֵּֽקוּ׃ </div>
+    <div class="en">No, this is the fast I desire:</div>
+    <div class="en">To unlock fetters of wickedness,</div>
+    <div class="en">And untie the cords of the yoke </div>
+    <div class="en">To let the oppressed go free;</div>
+    <div class="en">To break off every yoke.</div>
+    <div class="en"></div>
+    <div class="he">הֲל֨וֹא פָרֹ֤ס לָרָעֵב֙ לַחְמֶ֔ךָ וַעֲנִיִּ֥ים מְרוּדִ֖ים תָּ֣בִיא בָ֑יִת כִּֽי־תִרְאֶ֤ה עָרֹם֙ וְכִסִּית֔וֹ וּמִבְּשָׂרְךָ֖ לֹ֥א תִתְעַלָּֽם׃ </div>
+    <div class="en">It is to share your bread with the hungry,</div>
+    <div class="en">And to take the wretched poor into your home;</div>
+    <div class="en">When you see the naked, to clothe them,</div>
+    <div class="en">And not to ignore your own kin. </div>
+    <div class="en"></div>
+    <div class="he"> אָ֣ז יִבָּקַ֤ע כַּשַּׁ֙חַר֙ אוֹרֶ֔ךָ וַאֲרֻֽכָתְךָ֖ מְהֵרָ֣ה תִצְמָ֑ח וְהָלַ֤ךְ לְפָנֶ֙יךָ֙ צִדְקֶ֔ךָ כְּב֥וֹד יְהֹוָ֖ה יַֽאַסְפֶֽךָ...</div>
+    <div class="en">Then shall your light burst through like the dawn</div>
+    <div class="en">And your healing spring up quickly;</div>
+    <div class="en">Your Vindicator shall march before you…</div>
+    <div class="en"></div>
+    <div class="he">אִם־תָּשִׁ֤יב מִשַּׁבָּת֙ רַגְלֶ֔ךָ עֲשׂ֥וֹת חֲפָצֶ֖ךָ בְּי֣וֹם קׇדְשִׁ֑י וְקָרָ֨אתָ לַשַּׁבָּ֜ת עֹ֗נֶג לִקְד֤וֹשׁ יְהֹוָה֙ מְכֻבָּ֔ד וְכִבַּדְתּוֹ֙ מֵעֲשׂ֣וֹת דְּרָכֶ֔יךָ מִמְּצ֥וֹא חֶפְצְךָ֖ וְדַבֵּ֥ר דָּבָֽר׃ </div>
+    <div class="en">If you refrain from trampling the sabbath,</div>
+    <div class="en">From pursuing your affairs on My holy day;</div>
+    <div class="en">If you call the sabbath “delight,”</div>
+    <div class="en">GOD ’s holy day “honored”;</div>
+    <div class="en">And if you honor it and go not your ways</div>
+    <div class="en">Nor look to your affairs, nor strike bargains— </div>
+    <div class="en"></div>
+    <div class="he">אָ֗ז תִּתְעַנַּג֙ עַל־יְהֹוָ֔ה וְהִרְכַּבְתִּ֖יךָ עַל־[בָּ֣מֳתֵי] (במותי) אָ֑רֶץ וְהַאֲכַלְתִּ֗יךָ נַחֲלַת֙ יַֽעֲקֹ֣ב אָבִ֔יךָ כִּ֛י פִּ֥י יְהֹוָ֖ה דִּבֵּֽר׃</div>
+    <div class="en">Then you can seek GOD’s favor. </div>
+    <div class="en">I will set you astride the heights of the earth,</div>
+    <div class="en">And let you enjoy the heritage of your father Jacob—</div>
+    <div class="en">For GOD’s mouth has spoken.</div></div>
+  `,
 
 
   `
@@ -1034,19 +702,6 @@ const data2 = [
   '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
   '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
   '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
-  '1. From a Hassidic discourse recorded in S. Ansky’s “The Dybbuk”, (Mahzor Lev Shalem, p. 326)        \n\n',
   '2. Leviticus 16\n\n\n',
   '2. Leviticus 16\n\n\n',
   '2. Leviticus 16\n\n\n',
@@ -1059,6 +714,7 @@ const data2 = [
   '4. Berakhot 20b',
   '5. Nahmanides’ commentary on Leviticus 19:2\n',
   '5. Nahmanides’ commentary on Leviticus 19:2\n',
+  '6. Isaiah 58',
   '6. Isaiah 58',
   '6. Isaiah 58',
   '7. Deuteronomy 5',
