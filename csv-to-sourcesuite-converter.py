@@ -35,7 +35,7 @@ with open('in.csv') as csv_file:
 
     csv_reader = csv.reader(csv_file, delimiter=',')
     for row in csv_reader:
-        data2.append(row[0])
+        col1_focus_parsed = ""
 
         html_focus_parsed = ""
         html_zoom_parsed = ""
@@ -44,6 +44,7 @@ with open('in.csv') as csv_file:
 
         pattern = r"_([^*?]*?)_"
         html_focus_parsed = html_focus_parsed + ( re.sub(pattern, lambda x: f'<span class="focus">{x.group(1)}</span>' if x.group(1) else x.group(), row[1]) )
+        col1_focus_parsed = col1_focus_parsed + ( re.sub(pattern, lambda x: f'<span class="focus">{x.group(1)}</span>' if x.group(1) else x.group(), row[0]) )
 
         pattern = r"\*([^*]*)\*"
         html_zoom_parsed = html_zoom_parsed + ( re.sub(pattern, lambda x: f'<div class="zoom">{x.group(1)}</div>' if x.group(1) else x.group(), html_focus_parsed) )
@@ -54,6 +55,7 @@ with open('in.csv') as csv_file:
             html_line_parsed = html_line_parsed + format_div(div)
 
 
+        data2.append(col1_focus_parsed)
         data.append(html_line_parsed)
 
 print(str(data))

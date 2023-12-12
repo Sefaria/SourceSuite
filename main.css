@@ -43,6 +43,10 @@
 				color: #000;
 			}
 
+			aside .focus {
+				font-weight: 600;
+			}
+
 			.en {
 				direction: ltr;
 				padding-bottom: 30px;
