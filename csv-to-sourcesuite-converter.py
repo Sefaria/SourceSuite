@@ -17,12 +17,6 @@ def format_div(div):
             d = div.replace('<div class="zoom">', '<div class="zoom"><div class="en">')
             return f'{d}</div>'
 
-    # elif div.endsswith('</div>'):
-    #     if is_hebrew(div):
-    #         return f'<div class="he">{div}</div>'
-    #     else:
-    #         return f'<div class="en">{div}</div>'
-
     else:
         if is_hebrew(div):
             return f'<div class="he">{div}</div>'
@@ -55,10 +49,9 @@ with open('in.csv') as csv_file:
             html_line_parsed = html_line_parsed + format_div(div)
 
 
+        col1_focus_parsed = col1_focus_parsed.replace("\n","<br>")
         data2.append(col1_focus_parsed)
         data.append(html_line_parsed)
-
-print(str(data))
 
 
 with open('out.js', 'w') as f:
