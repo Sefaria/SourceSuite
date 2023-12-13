@@ -48,6 +48,8 @@ with open('in.csv') as csv_file:
         for div in html_zoom_parsed.split("\n"):
             html_line_parsed = html_line_parsed + format_div(div)
 
+        if html_line_parsed == '<div class="en"></div>':
+            html_line_parsed = '<div class="zoom"></div>'
 
         col1_focus_parsed = col1_focus_parsed.replace("\n","<br>")
         data2.append(col1_focus_parsed)
